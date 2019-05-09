@@ -1,0 +1,204 @@
+<html>
+
+  <head>
+
+    <!-- 1. Include the CanvasXpress library -->
+    <link rel="stylesheet" href="canvasXpress.css" type="text/css"/>
+    <script type="text/javascript" src="canvasXpress.min.js"></script>
+
+    <!-- 2. Include script to initialize object -->
+    <script>
+      onReady(function () {
+
+        // Data
+        var data = { z: { person: [
+                          "William Rawn",
+                          "William Rawn",
+                          "William Rawn",
+                          "William Rawn",
+                          "William Rawn",
+                          "William Rawn",
+                          "Mark Volpe",
+                          "Mark Volpe",
+                          "Mark Volpe",
+                          "Mitchell Silver",
+                          "Mitchell Silver",
+                          "Mitchell Silver",
+                          "Mitchell Silver",
+                          "Mitchell Silver",
+                          "Liz Diller",
+                          "Liz Diller",
+                          "Liz Diller",
+                          "Liz Diller",
+                          "Martha Whitehead",
+                          "Martha Whitehead",
+                          "Martha Whitehead",
+                          "Martha Whitehead",
+                          "Martha Whitehead",
+                          "Martha Whitehead",
+                          "Pierre-Alexis Dumas",
+                          "Pierre-Alexis Dumas",
+                          "Pierre-Alexis Dumas",
+                          "Pierre-Alexis Dumas",
+                          "Pierre-Alexis Dumas",
+                          "Anne Pasternak",
+                          "Anne Pasternak",
+                          "Diane Paulus",
+                          "Diane Paulus",
+                          "Courtney Sharpe",
+                          "Rebecca Robertson",
+                          "Joana Vicente",
+                          "David Rockwell",
+                          "David Rockwell",
+                          "David Rockwell",
+                          "David Rockwell",
+                          "David Rockwell",
+                          "David Rockwell",
+                          "David Rockwell",
+                          "David Rockwell",
+                          "David Rockwell",
+                          "NA",
+                          "NA"
+                        ]},
+                     y: {
+                       vars: [
+                          "Cambridge Public Library",
+                          "Williams College 62 Center for Theatre and Dance",
+                          "Berklee College of Music",
+                          "Seiji Ozawa Hall at Tanglewood",
+                          "Boston Public Library Central Branch Johnson Building Improvements",
+                          "Duke University Rubenstein Arts Center",
+                          "Boston Symphony Hall",
+                          "Max M and Marjorie S Fisher Music Center",
+                          "Tanglewood",
+                          "Central Park",
+                          "Prospect Park",
+                          "Brooklyn Bridge Park",
+                          "Union Square Park",
+                          "Community Parks Initiative Sites",
+                          "The High Line",
+                          "The Shed",
+                          "Institute of Contemporary Art",
+                          "Blur Building",
+                          "New Lots Library",
+                          "Queens University Library",
+                          "Harvard University Library",
+                          "Dokk1",
+                          "Seward Park Library",
+                          "Maison de la Litterature",
+                          "Hermes New York Madison",
+                          "Hermes Tokyo Ginza",
+                          "Hermes Paris Faubourg Saint Honore",
+                          "Hermes Paris Sevres",
+                          "Hermes Meatpacking",
+                          "The Metropolitan Museum of Art",
+                          "Brooklyn Art Museum",
+                          "OBERON",
+                          "Loeb Drama Center",
+                          "Strand Theatre",
+                          "Park Avenue Armory",
+                          "TIFF Bell Lightbox",
+                          "The Diner",
+                          "Hayes Theatre",
+                          "Nobu",
+                          "Daily Provisions",
+                          "Union Square Cafe",
+                          "The Lawn",
+                          "TED Theater",
+                          "Chefs Club",
+                          "TAO Downtown",
+                          "MIT Media Lab",
+                          "Smith Campus Center"
+                       ],
+                       smps: [ "Specificity", "Flexibility", "Inclusivity" ],
+                       data: [
+                          [0.7419999837875366, 4.092000007629395, 10],
+                          [0.5019999742507935, 9.880999565124512, 7.515999794006348],
+                          [0.6690000295639038, 9.986000061035156, 4.939000129699707],
+                          [5.90500020980835, 8.375, 9.918000221252441],
+                          [0.7689999938011169, 9.913999557495117, 10],
+                          [0.8149999976158142, 10, 7.959000110626221],
+                          [8.88700008392334, 0.0320000015199184, 6.836999893188477],
+                          [8.98799991607666, 0.1150000020861626, 6.644999980926514],
+                          [4.925000190734863, 6.455999851226807, 9.121999740600586],
+                          [9.319999694824219, 7.316999912261963, 9.722999572753906],
+                          [8.480999946594238, 8.595000267028809, 10],
+                          [6.630000114440918, 8.345999717712402, 9.828000068664551],
+                          [6.51800012588501, 7.63700008392334, 10],
+                          [5.089000225067139, 5.15500020980835, 9.890999794006348],
+                          [6.578000068664551, 5.508999824523926, 10],
+                          [2.342999935150146, 9.800999641418457, 1.662999987602234],
+                          [2.494999885559082, 6.323999881744385, 7.556000232696533],
+                          [6.607999801635742, 0.0590000003576279, 6.413000106811523],
+                          [0.6430000066757202, 5.65500020980835, 9.87600040435791],
+                          [3.799999952316284, 2.523999929428101, 5.114999771118164],
+                          [9.083000183105469, 2.736999988555908, 0.090999998152256],
+                          [7.47700023651123, 6.795000076293945, 9.826000213623047],
+                          [3.460000038146973, 5.500999927520752, 10],
+                          [8.10099983215332, 5.681000232696533, 9.911999702453613],
+                          [4.627999782562256, 2.726000070571899, 1.692000031471252],
+                          [9.595000267028809, 2.752000093460083, 1.817999958992004],
+                          [5.864999771118164, 0.5400000214576721, 1.929999947547913],
+                          [8.96399974822998, 0.1770000010728836, 1.76800000667572],
+                          [4.311999797821045, 0.1969999969005585, 1.478000044822693],
+                          [8.690999984741211, 6.401999950408936, 6.75],
+                          [7.239999771118164, 6.282999992370605, 9.826000213623047],
+                          [0.7239999771118164, 10, 9.807000160217285],
+                          [0.5559999942779541, 9.991999626159668, 7.782999992370605],
+                          [5.008999824523926, 0.7519999742507935, 7.835000038146973],
+                          [7.303999900817871, 10, 1.338000059127808],
+                          [1.02400004863739, 6.14300012588501, 3.378000020980835],
+                          [4.914000034332275, 0.2319999933242798, 3.657000064849854],
+                          [5.211999893188477, 0.0299999993294477, 1.38100004196167],
+                          [3.114000082015991, 0.0579999983310699, 1.445999979972839],
+                          [1.88100004196167, 0.0529999993741512, 5.139999866485596],
+                          [7.282000064849854, 0.0469999983906746, 5.22599983215332],
+                          [3.552999973297119, 2.61899995803833, 5.098999977111816],
+                          [2.785000085830688, 1.264999985694885, 0.0979999974370003],
+                          [3.400000095367432, 0.9629999995231628, 1.557000041007996],
+                          [3.927000045776367, 0.2930000126361847, 1.519000053405762],
+                          [1.02400004863739, 10, 4.952000141143799],
+                          [0.1439999938011169, 10, 6.462999820709229]
+                       ]
+                     }
+                   };
+
+        // Configuration
+        var conf = {
+                     graphType: "Scatter3D",
+                     title: "Flexibility vs Specificity vs Inclusivity",
+                     colorBy: "person",
+                     colors: ["#c53832", "#8d6bb8", "#be9d96", "#f19d99", "#85584e", "#f5bd82", "#b2c7e5", "#519d3e", "#e88511", "#d57ebe", "#a8dc93", "#c1b1d2", "#3977af"],
+                     setMaxX: 10,
+                     setMinX: 0,
+                     xAxis: [
+                       "Specificity"
+                     ],
+                     setMaxY: 10,
+                     setMinY: 0,
+                     yAxis: [
+                       "Flexibility"
+                     ],
+                     setMaxZ: 10,
+                     setMinZ: 0,
+                     zAxis: [
+                       "Inclusivity"
+                     ]
+                   };
+
+        // Initialize object
+        var cX = new CanvasXpress("canvasId", data, conf);
+
+      });
+    </script>
+
+  </head>
+
+  <body>
+
+    <!-- 3. DOM element where the visualization will be displayed -->
+    <canvas  id="canvasId" width="850" height="850"></canvas>
+
+  </body>
+
+</html>

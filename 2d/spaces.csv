@@ -1,0 +1,48 @@
+﻿id,person,space,f_overall,f_overall_jitter,s_overall,s_overall_jitter,i_overall,i_overall_jittered
+1,William Rawn,Cambridge Public Library,4,4.092,0.625,0.742,10,10.253
+2,William Rawn,Williams College 62 Center for Theatre and Dance,10,9.881,0.625,0.502,7.67,7.516
+3,William Rawn,Berklee College of Music,10,9.986,0.625,0.669,5,4.939
+4,William Rawn,Seiji Ozawa Hall at Tanglewood,8.5,8.375,6.125,5.905,10,9.918
+5,William Rawn,Boston Public Library Central Branch Johnson Building Improvements,10,9.914,0.625,0.769,10,10.209
+6,William Rawn,Duke University Rubenstein Arts Center,10,10.048,0.625,0.815,7.67,7.959
+7,Mark Volpe,Boston Symphony Hall,0,0.032,8.875,8.887,6.67,6.837
+8,Mark Volpe,Max M and Marjorie S Fisher Music Center,0,0.115,8.875,8.988,6.67,6.645
+9,Mark Volpe,Tanglewood,6.25,6.456,5,4.925,9,9.122
+10,Mitchell Silver,Central Park,7.5,7.317,9.375,9.320,10,9.723
+11,Mitchell Silver,Prospect Park,8.5,8.595,8.25,8.481,10,10.098
+12,Mitchell Silver,Brooklyn Bridge Park,8.5,8.346,6.5,6.630,10,9.828
+13,Mitchell Silver,Union Square Park,7.5,7.637,6.5,6.518,10,10.326
+14,Mitchell Silver,Community Parks Initiative Sites,5,5.155,5.125,5.089,10,9.891
+15,Liz Diller,The High Line,5.75,5.509,6.75,6.578,10,10.081
+16,Liz Diller,The Shed,10,9.801,2.25,2.343,1.67,1.663
+18,Liz Diller,Institute of Contemporary Art,6.25,6.324,2.25,2.495,7.67,7.556
+19,Liz Diller,Blur Building,0,-0.059,6.75,6.608,6.67,6.413
+20,Martha Whitehead,New Lots Library,5.75,5.655,0.625,0.643,10,9.876
+21,Martha Whitehead,Queens University Library,2.75,2.524,3.875,3.800,5,5.115
+22,Martha Whitehead,Harvard University Library,2.75,2.737,8.875,9.083,0,-0.091
+23,Martha Whitehead,Dokk1,6.75,6.795,7.5,7.477,10,9.826
+24,Martha Whitehead,Seward Park Library,5.75,5.501,3.25,3.460,10,10.255
+25,Martha Whitehead,Maison de la Litterature,5.75,5.681,8.125,8.101,10,9.912
+26,Pierre-Alexis Dumas,Hermes New York Madison,2.75,2.726,4.5,4.628,1.67,1.692
+27,Pierre-Alexis Dumas,Hermes Tokyo Ginza,2.75,2.752,9.375,9.595,1.67,1.818
+28,Pierre-Alexis Dumas,Hermes Paris Faubourg Saint Honore,0.5,0.540,5.625,5.865,1.67,1.930
+29,Pierre-Alexis Dumas,Hermes Paris Sevres,0,0.177,8.875,8.964,1.67,1.768
+30,Pierre-Alexis Dumas,Hermes Meatpacking,0,0.197,4.5,4.312,1.67,1.478
+31,Anne Pasternak,The Metropolitan Museum of Art,6.25,6.402,8.875,8.691,6.67,6.750
+32,Anne Pasternak,Brooklyn Art Museum,6.25,6.283,7.125,7.240,10,9.826
+35,Diane Paulus,OBERON,10,10.221,0.625,0.724,10,9.807
+36,Diane Paulus,Loeb Drama Center,10,9.992,0.625,0.556,7.67,7.783
+37,Courtney Sharpe,Strand Theatre,1,0.752,5.125,5.009,7.67,7.835
+39,Rebecca Robertson,Park Avenue Armory,10,10.233,7.5,7.304,1.67,1.338
+40,Joana Vicente,TIFF Bell Lightbox,6,6.143,1.25,1.024,3.33,3.378
+41,David Rockwell,The Diner,0,0.232,4.75,4.914,3.33,3.657
+42,David Rockwell,Hayes Theatre,0,0.030,5.125,5.212,1.67,1.381
+43,David Rockwell,Nobu,0,-0.058,3,3.114,1.67,1.446
+44,David Rockwell,Daily Provisions,0,-0.053,1.875,1.881,5,5.140
+45,David Rockwell,Union Square Cafe,0,0.047,7.125,7.282,5,5.226
+46,David Rockwell,The Lawn,2.75,2.619,3.5,3.553,5,5.099
+47,David Rockwell,TED Theater,1.5,1.265,3,2.785,0,0.098
+48,David Rockwell,Chefs Club,0.75,0.963,3.625,3.400,1.67,1.557
+49,David Rockwell,TAO Downtown,0.5,0.293,4.125,3.927,1.67,1.519
+50,NA,MIT Media Lab,10,10.054,1.125,1.024,5,4.952
+51,NA,Smith Campus Center,10,10.220,0,-0.144,6.67,6.463
